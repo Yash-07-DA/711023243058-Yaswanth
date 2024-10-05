@@ -1,0 +1,16 @@
+name: hello-world
+on: push
+jobs:
+  evenging-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+      - name: assignment
+        run: echo "Submitting Assignment"
+      - name: meeting-friends
+        run: echo "Good Morning"
+      - name: workshop
+        run: echo "DevOps"
+      - name: lab
+        run: echo "Github"
