@@ -1,7 +1,7 @@
 name: hello-world
 on: push
 jobs:
-  today-jobs:
+  my-jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
